@@ -68,6 +68,7 @@ module.exports = {
         // { from: 'public', to: '' }, // ← copia todo public/ → dist/
         // { from: 'src/images', to: 'images' } // ← imágenes que ya tenías
         { from: 'src/data/stations.json', to: 'js/stations.json' }, 
+        { from: 'src/images/favicon', to: 'images/favicon' }
       ]
     }),
     // new Icons({ /* opciones */ }),
