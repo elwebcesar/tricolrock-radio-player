@@ -1,0 +1,104 @@
+.share-button {
+    --size-button: 3rem;
+
+    position: fixed;
+    z-index: 100;
+    width: var(--size-button);
+    height: var(--size-button);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: calc( -1 * var(--size-button)/2 ) 0 0 calc( -1 * var(--size-button)/2 );
+    font-size: 1.6rem;
+    color: var( --color-primary-text);
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 8px 10px rgba(var(--base-color-dark),.7);
+    /* transform: translate(-50%, -50%); */
+    /* transition: transform 0.3s ease, box-shadow 0.5s ease; */
+    transition: box-shadow 0.5s ease;
+
+     &:hover {
+        /* transform: scale(1.2); */
+        box-shadow: 0 0 12px 10px rgba(var(--base-color-white),.2);
+     }
+}
+
+.share-options {
+    position: fixed;
+    z-index: 100;
+    /* top: 5.2rem;
+    right: 2.8rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: -26px;
+    padding: .8rem .5rem;
+
+    border-radius: .6rem;
+    box-shadow: 0 2px 15px rgba(var(--base-color-dark),.5);
+    backdrop-filter: blur(10px);
+
+    display: flex; /* Mantenemos flex, pero lo ocultamos visualmente */
+    opacity: 0;
+    visibility: hidden; /* Oculta del flujo para que no interfiera con clics */
+    transform: translateY(-10px);
+    /* transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s steps(1, end); */
+    transition: opacity 0.3s ease, transform 0.4s ease, visibility 0.3s 0.3s;
+
+    &.show-share-options {
+      opacity: 1;
+      visibility: initial;
+      transform: translateY(34px);
+
+      transition: opacity 0.3s ease, transform 0.4s ease, visibility 0s 0s;
+    }
+}
+
+.share-options a {
+    padding: .4rem .5rem .2rem .5rem;
+    font-size: 1.2rem;
+    border-radius: .2rem;
+    transition: background-color .3s;
+}
+
+.share-options a:hover {
+    background-color: rgba(var(--base-color-dark),.3);
+}
+
+
+/*
+.share-options {
+    display: none;
+    position: fixed;
+    z-index: 100;
+
+    top: 80px;
+    right: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--background-light);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+}
+
+
+
+.share-options a i {
+  font-size: 20px;
+}
+
+.show-share-options {
+  display: flex;
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+*/

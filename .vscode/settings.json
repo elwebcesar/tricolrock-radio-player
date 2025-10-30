@@ -1,0 +1,8 @@
+{
+  /* le decimos a “Live Server” cuál es la carpeta pública */
+  "liveServer.settings.root": "/dist",
+  /* (opcional) puerto por defecto que usa Go Live */
+  "liveServer.settings.port": 5501,
+  /* para que no abra el navegador cada vez que guardas */
+  "liveServer.settings.donotShowInfoMsg": true
+}

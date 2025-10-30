@@ -1,0 +1,54 @@
+:root {
+    --font-size: 16px;
+
+    /* ------------------------------------------------------------
+    Type Fonts */
+    --font-primary: "Fjalla One", sans-serif;
+    --font-secondary: "Alfa Slab One", serif;
+
+    /* ------------------------------------------------------------
+    Weights (optional, since they're both 400) */
+    --font-weight-regular: 400;
+
+    /* ------------------------------------------------------------
+    Colors */   
+    --base-color-white: 253, 253, 253; /* #FDFDFD */
+    --color-white: rgb(var(--base-color-white));
+
+    --base-color-dark: 1, 1, 1; /* #010101 */
+    --color-dark: rgb(var(--base-color-dark));
+
+    --base-color-back: 8, 16, 28; /* #08101C */
+    --color-back: rgb(var(--base-color-back));
+
+    --base-color-back2: 27, 33, 55; /* #1B2137 */
+    --color-back2: rgb(var(--base-color-back2));
+
+    --base-color-back3: 31, 38, 64; /* #1F2640 */
+    --color-back3: rgb(var(--base-color-back3));
+
+    --color-grey-light: #D9D9D9;
+    --color-grey: #919191;
+
+    --color-on-air: red;
+
+    /* colombia colors */
+    --color-col-yellow: #FFCD01;
+    --color-col-blue: #1E448E; /* #002F86; */
+    --color-col-red: #C9102E;
+
+    /* interactive colors */
+    --color-primary: var(--color-col-blue);
+    --color-primary-text:  var(--color-white);
+
+    /* ------------------------------------------------------------
+    Measures */
+
+    --border-radius: 1rem;
+    --general-spacing: 1rem;
+    --vertical-spacing: 1.5rem;
+
+    @media (min-width: 1024px) {
+        --general-spacing: 2rem;
+    }
+}

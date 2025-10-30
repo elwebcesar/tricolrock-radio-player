@@ -1,0 +1,13 @@
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/babel/babel/blob/main/packages/babel-helpers/LICENSE */
+
+/**
+* (c) Iconify
+*
+* For the full copyright and license information, please view the license.txt
+* files at https://github.com/iconify/iconify
+*
+* Licensed under MIT.
+*
+* @license MIT
+* @version 1.0.7
+*/

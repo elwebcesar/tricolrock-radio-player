@@ -1,0 +1,100 @@
+[
+  {
+    "id": "radio-tricolrock",
+    "name": "Radio Tricolrock",
+    "stream": "https://cast.tricolrock.com:8000/radio-tricolrock",
+    "stream_sc": "https://cast.tricolrock.com:8000/radio-tricolrock-sc",
+    "stream_hls": "https://cast.tricolrock.com/hls/radio_tricolrock/live.m3u8",
+    "api": "https://cast.tricolrock.com/api/nowplaying/radio_tricolrock",
+    "history": "https://cast.tricolrock.com/api/station/radio_tricolrock/history",
+    "logo": "/images/radio-tricolrock.svg",
+    "color": ["#FFCD01", "#1E448E", "#C9102E"],
+    "active": true
+  },
+  {
+    "id": "blanco-tricolrock",
+    "name": "Blanco Tricolrock",
+    "stream": "https://cast.tricolrock.com:8060/blanco-tricolrock",
+    "stream_sc": "https://cast.tricolrock.com:8060/blanco-tricolrock-sc",
+    "stream_hls": "https://cast.tricolrock.com/hls/blanco_tricolrock/live.m3u8",
+    "api": "https://cast.tricolrock.com/api/nowplaying/blanco_tricolrock",
+    "history": "https://cast.tricolrock.com/api/station/blanco_tricolrock/history",
+    "logo": "/images/blanco-tricolrock.svg",
+    "color": "#FDFDFD",
+    "color_light": true,
+    "active": true
+  },
+  {
+    "id": "amarillo-tricolrock",
+    "name": "Amarillo Tricolrock",
+    "stream": "https://cast.tricolrock.com:8010/amarillo-tricolrock",
+    "stream_sc": "https://cast.tricolrock.com:8010/amarillo-tricolrock-sc",
+    "stream_hls": "https://cast.tricolrock.com/hls/amarillo_tricolrock/live.m3u8",
+    "api": "https://cast.tricolrock.com/api/nowplaying/amarillo_tricolrock",
+    "history": "https://cast.tricolrock.com/api/station/amarillo_tricolrock/history",
+    "logo": "/images/amarillo-tricolrock.svg",
+    "color": "#fab615",
+    "color_light": true,
+    "active": true
+  },
+  {
+    "id": "azul-tricolrock",
+    "name": "Azul Tricolrock",
+    "stream": "https://cast.tricolrock.com:8020/azul",
+    "stream_sc": "https://cast.tricolrock.com:8020/azul-tricolrock-sc",
+    "stream_hls": "https://azul.tricolrock.com/Azul%20Tricolrock",
+    "api": "https://cast.tricolrock.com/api/nowplaying/azul_tricolrock",
+    "history": "https://cast.tricolrock.com/api/station/azul_tricolrock/history",
+    "logo": "/images/azul-tricolrock.svg",
+    "color": "#4da6ff",
+    "active": true
+  },
+  {
+    "id": "rojo-tricolrock",
+    "name": "Rojo Tricolrock",
+    "stream": "https://cast.tricolrock.com:8030/rojo",
+    "stream_sc": "https://cast.tricolrock.com:8030/rojo-tricolrock-sc",
+    "stream_hls": "https://cast.tricolrock.com/hls/rojo_tricolrock/live.m3u8",
+    "api": "https://cast.tricolrock.com/api/nowplaying/rojo_tricolrock",
+    "history": "https://cast.tricolrock.com/api/station/rojo_tricolrock/history",
+    "logo": "/images/rojo-tricolrock.svg",
+    "color": "#ff3333",
+    "active": true
+  },
+  {
+    "id": "negro-tricolrock",
+    "name": "Negro Tricolrock",
+    "stream": "https://cast.tricolrock.com:8050/negro-tricolrock",
+    "stream_sc": "https://cast.tricolrock.com:8050/negro-tricolrock-sc",
+    "stream_hls": "https://cast.tricolrock.com/hls/negro_tricolrock/live.m3u8",
+    "api": "https://cast.tricolrock.com/api/nowplaying/negro_tricolrock",
+    "history": "https://cast.tricolrock.com/api/station/negro_tricolrock/history",
+    "logo": "/images/negro-tricolrock.svg",
+    "color": "#000000",
+    "active": true
+  },
+  {
+    "id": "nova-tricolrock",
+    "name": "Nova Tricolrock",
+    "stream": "https://cast.tricolrock.com:8040/nova_tricolrock",
+    "stream_sc": "https://cast.tricolrock.com:8040/nova-tricolrock-sc",
+    "stream_hls": "https://cast.tricolrock.com/hls/nova_tricolrock/live.m3u8",
+    "api": "https://cast.tricolrock.com/api/nowplaying/nova_tricolrock",
+    "history": "https://cast.tricolrock.com/api/station/nova_tricolrock/history",
+    "logo": "/images/nova-tricolrock.svg",
+    "color": "#EA8D2D",
+    "active": true
+  },
+  {
+    "id": "violeta-tricolrock",
+    "name": "Violeta Tricolrock",
+    "stream": "https://cast.tricolrock.com:8070/violeta_tricolrock",
+    "stream_sc": "https://cast.tricolrock.com:8070/violeta-tricolrock-sc",
+    "stream_hls": "https://cast.tricolrock.com/hls/violeta_tricolrock/live.m3u8",
+    "api": "https://cast.tricolrock.com/api/nowplaying/violeta_tricolrock",
+    "history": "https://cast.tricolrock.com/api/station/violeta_tricolrock/history",
+    "logo": "/images/violeta-tricolrock.svg",
+    "color": "#6a0dad",
+    "active": true
+  }
+]
